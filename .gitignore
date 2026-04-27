@@ -29,3 +29,5 @@ env
 /env 
 /.env 
 ./env
+.vercel
+.env*.local
