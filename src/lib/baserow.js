@@ -1,11 +1,11 @@
 const API_BASE = "https://api.baserow.io/api/database/rows/table"
 
-const TOKEN = import.meta.env.VITE_BASEROW_TOKEN
-const BRANCHES_TABLE_ID = import.meta.env.VITE_BASEROW_BRANCHES_TABLE_ID
-const POSITIONS_TABLE_ID = import.meta.env.VITE_BASEROW_POSITIONS_TABLE_ID
-const APPLICATIONS_TABLE_ID = import.meta.env.VITE_BASEROW_APPLICATIONS_TABLE_ID
-const EXPERIENCES_TABLE_ID = import.meta.env.VITE_BASEROW_EXPERIENCES_TABLE_ID
-const CERTIFICATES_TABLE_ID = import.meta.env.VITE_BASEROW_CERTIFICATES_TABLE_ID
+const TOKEN = import.meta.env.BASEROW_TOKEN
+const BRANCHES_TABLE_ID = import.meta.env.BASEROW_BRANCHES_TABLE_ID
+const POSITIONS_TABLE_ID = import.meta.env.BASEROW_POSITIONS_TABLE_ID
+const APPLICATIONS_TABLE_ID = import.meta.env.BASEROW_APPLICATIONS_TABLE_ID
+const EXPERIENCES_TABLE_ID = import.meta.env.BASEROW_EXPERIENCES_TABLE_ID
+const CERTIFICATES_TABLE_ID = import.meta.env.BASEROW_CERTIFICATES_TABLE_ID
 
 function getHeaders(isJson = false) {
   return {
