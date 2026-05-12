@@ -16,6 +16,7 @@ import {
 } from "lucide-react"
 import { getBranches } from "../lib/baserow"
 import asltalimLogo from "../assets/asltalim.jpg" 
+import { Link } from "react-router-dom";
 
 const stats = [
   {
@@ -369,8 +370,10 @@ export default function HomePage() {
               Muvaffaqiyatli karyerangizga birinchi qadamni tashlang.
             </p>
             <Button className="group h-24 rounded-full bg-white px-16 text-2xl font-[1000] text-slate-950 transition-all hover:bg-emerald-500 hover:text-white">
-              HOZIROQ ARIZA TOPSHIRISH
-              <ArrowRight className="ml-4 h-8 w-8 transition-transform group-hover:translate-x-3" />
+              <Link to="/branches">
+                HOZIROQ ARIZA TOPSHIRISH
+                <ArrowRight className="ml-4 h-8 w-8 transition-transform group-hover:translate-x-3" />
+              </Link>            
             </Button>
           </div>
         </motion.div>
