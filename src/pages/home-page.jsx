@@ -370,10 +370,10 @@ export default function HomePage() {
               Muvaffaqiyatli karyerangizga birinchi qadamni tashlang.
             </p>
             <Button className="group h-24 rounded-full bg-white px-16 text-2xl font-[1000] text-slate-950 transition-all hover:bg-emerald-500 hover:text-white">
-              <Link to="/branches">
+              <a href="#filiallar">
                 HOZIROQ ARIZA TOPSHIRISH
                 <ArrowRight className="ml-4 h-8 w-8 transition-transform group-hover:translate-x-3" />
-              </Link>            
+              </a>            
             </Button>
           </div>
         </motion.div>
